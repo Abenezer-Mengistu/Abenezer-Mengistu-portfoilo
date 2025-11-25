@@ -80,13 +80,6 @@ export const CERTIFICATIONS: CertificateItem[] = [
 
 export const PROJECTS: ProjectItem[] = [
   {
-    title: 'NegusFit',
-    description: 'is a modern, mobile-first fitness and wellness platform designed to make health accessible, culturally relevant, and deeply personal. We bridge the gap between modern training science and local cultural contexts, featuring culturally specific nutrition planning, inclusive workout routines, and a supportive community that treats you like royalty.',
-    tags: ['Django', 'Python', 'PostgreSQL', 'Bootstrap', 'React', 'Tailwind', 'Vite'],
-    image: '/images/negusfit.png',
-    githubUrl: 'https://negus-fit.vercel.app/',
-  },
-  {
     title: 'HabitMint',
     description: 'A responsive, high-performance dashboard for visualizing complex datasets, featuring interactive charts and real-time updates.',
     tags: ['React', 'Tailwind CSS', 'Recharts', 'TypeScript'],
@@ -106,5 +99,12 @@ export const PROJECTS: ProjectItem[] = [
     tags: ['Python', 'Django', 'Jquery', 'Restful api','Apex Charts', 'Git'],
     image: '/images/safeethiopia.png',
     githubUrl: 'https://safe-ethiopia-defensive-driving.vercel.app/',
+  },
+  {
+    title: 'NegusFit',
+    description: 'is a modern, mobile-first fitness and wellness platform designed to make health accessible, culturally relevant, and deeply personal. We bridge the gap between modern training science and local cultural contexts, featuring culturally specific nutrition planning, inclusive workout routines, and a supportive community that treats you like royalty.',
+    tags: ['Django', 'Python', 'PostgreSQL', 'Bootstrap', 'React', 'Tailwind', 'Vite'],
+    image: '/images/negusfit.png',
+    githubUrl: 'https://negus-fit.vercel.app/',
   },
 ];
