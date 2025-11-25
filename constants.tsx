@@ -17,11 +17,6 @@ import {
   NavItem 
 } from './types';
 
-import negusfitImage from '@/assets/images/negusfit.png';
-import habitImage from '@/assets/images/habit.png';
-import habeshaReads from '@/assets/images/habeshsa.png';
-import safeethiopia from '@/assets/images/safeethiopia.png';
-
 export const NAV_ITEMS: NavItem[] = [
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
@@ -88,28 +83,28 @@ export const PROJECTS: ProjectItem[] = [
     title: 'NegusFit',
     description: 'is a modern, mobile-first fitness and wellness platform designed to make health accessible, culturally relevant, and deeply personal. We bridge the gap between modern training science and local cultural contexts, featuring culturally specific nutrition planning, inclusive workout routines, and a supportive community that treats you like royalty.',
     tags: ['Django', 'Python', 'PostgreSQL', 'Bootstrap', 'React', 'Tailwind', 'Vite'],
-    image: negusfitImage,
+    image: '/images/negusfit.png',
     githubUrl: 'https://negus-fit.vercel.app/',
   },
   {
     title: 'HabitMint',
     description: 'A responsive, high-performance dashboard for visualizing complex datasets, featuring interactive charts and real-time updates.',
     tags: ['React', 'Tailwind CSS', 'Recharts', 'TypeScript'],
-    image: habitImage,
+    image: '/images/habit.png',
     githubUrl: 'https://habit-mint-nine.vercel.app/',
   },
   {
     title: 'HabeshaReads',
     description: 'A community for lovers of novels, poetry, and history from the Horn of Africa. Rate, review, and discuss the canon.',
     tags: ['React', 'Vite', 'TypeScript', 'Tailwind CSS'],
-    image: habeshaReads,
+    image: '/images/habeshsa.png',
     githubUrl: 'https://teret.vercel.app/',
   },
   {
     title: 'Safe Ethiopia Defensive Driving',
     description: 'Equipping drivers in Addis Ababa with expert defensive driving techniques. Reduce accidents, lower costs, and ensure safety for your fleet and family.',
     tags: ['Python', 'Django', 'Jquery', 'Restful api','Apex Charts', 'Git'],
-    image: safeethiopia,
+    image: '/images/safeethiopia.png',
     githubUrl: 'https://safe-ethiopia-defensive-driving.vercel.app/',
   },
 ];
