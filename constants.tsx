@@ -66,7 +66,7 @@ export const EXPERIENCE: ExperienceItem[] = [
 export const EDUCATION: EducationItem = {
   institution: 'ACT American College of Technology',
   degree: 'Bachelor of Science, Computer Science',
-  period: '2021 – 2024',
+  period: '2022 – 2025',
   courses: ['JavaScript', 'SQL Server', 'Web Development', 'Cybersecurity', 'Data Structures', 'Algorithms'],
 };
 
@@ -81,7 +81,7 @@ export const CERTIFICATIONS: CertificateItem[] = [
 export const PROJECTS: ProjectItem[] = [
   {
     title: 'HabitMint',
-    description: 'A responsive, high-performance dashboard for visualizing complex datasets, featuring interactive charts and real-time updates.',
+    description: 'Tiny Habits, Big Transformations. Discover curated 1–5 minute routines crafted by experts to upgrade your life, one micro-step at a time.',
     tags: ['React', 'Tailwind CSS', 'Recharts', 'TypeScript'],
     image: '/images/habit.png',
     githubUrl: 'https://habit-mint-nine.vercel.app/',
