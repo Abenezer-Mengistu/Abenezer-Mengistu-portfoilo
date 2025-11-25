@@ -76,9 +76,9 @@ export const Navbar: React.FC = () => {
             </a>
           ))}
           <div className="flex gap-4 px-3 py-2 mt-4 border-t border-slate-800 pt-4">
-             <a href="#" className="text-slate-400 hover:text-white"><Github size={20} /></a>
-             <a href="#" className="text-slate-400 hover:text-white"><Linkedin size={20} /></a>
-             <a href="mailto:contact@example.com" className="text-slate-400 hover:text-white"><Mail size={20} /></a>
+             <a href="https://github.com/Abenezer-Mengistu/" className="text-slate-400 hover:text-white"><Github size={20} /></a>
+             <a href="https://www.linkedin.com/in/abenezer-mengistu-1a239526a/" className="text-slate-400 hover:text-white"><Linkedin size={20} /></a>
+             <a href="mailto:abenezermengistu60@gmail.com" className="text-slate-400 hover:text-white"><Mail size={20} /></a>
           </div>
         </div>
       </div>
