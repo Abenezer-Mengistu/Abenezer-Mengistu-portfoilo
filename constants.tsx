@@ -18,7 +18,7 @@ import {
 } from './types';
 
 import negusfitImage from '@/assets/images/negusfit.png';
-import habitImage from '@/assets/images/Habit.png';
+import habitImage from '@/assets/images/habit.png';
 import habeshaReads from '@/assets/images/habeshsa.png';
 import safeethiopia from '@/assets/images/safeethiopia.png';
 
