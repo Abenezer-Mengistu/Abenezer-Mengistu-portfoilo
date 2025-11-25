@@ -43,10 +43,10 @@ export const Navbar: React.FC = () => {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
-            <a href="#" className="text-slate-400 hover:text-white transition-colors">
+            <a href=""https://github.com/Abenezer-Mengistu/" className="text-slate-400 hover:text-white transition-colors">
               <Github size={20} />
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/abenezer-mengistu-1a239526a/" className="text-slate-400 hover:text-white transition-colors">
               <Linkedin size={20} />
             </a>
           </div>
