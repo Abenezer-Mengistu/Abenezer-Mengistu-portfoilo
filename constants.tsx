@@ -17,6 +17,8 @@ import {
   NavItem 
 } from './types';
 
+import negusfitImage from '@/assets/images/negusfit.png';
+
 export const NAV_ITEMS: NavItem[] = [
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
@@ -83,7 +85,7 @@ export const PROJECTS: ProjectItem[] = [
     title: 'NegusFit',
     description: 'is a modern, mobile-first fitness and wellness platform designed to make health accessible, culturally relevant, and deeply personal. We bridge the gap between modern training science and local cultural contexts, featuring culturally specific nutrition planning, inclusive workout routines, and a supportive community that treats you like royalty.',
     tags: ['Django', 'Python', 'PostgreSQL', 'Bootstrap', 'React', 'Tailwind', 'Vite'],
-    image: 'https://picsum.photos/800/600?random=1',
+    image: negusfitImage,
     githubUrl: 'https://negus-fit.vercel.app/',
   },
   {
