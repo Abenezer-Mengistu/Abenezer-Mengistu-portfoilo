@@ -100,11 +100,19 @@ export const PROJECTS: ProjectItem[] = [
     image: '/images/safeethiopia.png',
     githubUrl: 'https://safe-ethiopia-defensive-driving.vercel.app/',
   },
-   {
+  {
     title: 'SwapMeet',
     description: 'Join the cashless revolution. Use our AI to find fair trades, build your reputation, and swap items securely in your community.',
     tags: ['React', 'Vite', 'TypeScript', 'Tailwind CSS', 'Gemini'],
     image: '/images/trade.png',
     githubUrl: 'https://swap-meet-iota.vercel.app/',
+  },
+  {
+    title: 'NegusFit',
+    description: 'is a modern, mobile-first fitness and wellness platform designed to make health accessible, culturally relevant, and deeply personal. We bridge the gap between modern training science and local cultural contexts, featuring culturally specific nutrition planning, inclusive workout routines, and a supportive community that treats you like royalty.',
+    tags: ['Django', 'Python', 'PostgreSQL', 'Bootstrap', 'React', 'Tailwind', 'Vite'],
+    image
+    : '/images/negusfit.png',
+    githubUrl: 'https://negus-fit.vercel.app/',
   },
 ];
