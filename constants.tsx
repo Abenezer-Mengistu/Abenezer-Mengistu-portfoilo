@@ -107,4 +107,11 @@ export const PROJECTS: ProjectItem[] = [
     image: '/images/safeethiopia.png',
     githubUrl: 'https://safe-ethiopia-defensive-driving.vercel.app/',
   },
+   {
+    title: 'SwapMeet',
+    description: 'Join the cashless revolution. Use our AI to find fair trades, build your reputation, and swap items securely in your community.',
+    tags: ['React', 'Vite', 'TypeScript', 'Tailwind CSS', 'Gemini'],
+    image: '/images/trade.png',
+    githubUrl: 'https://swap-meet-iota.vercel.app/',
+  },
 ];
