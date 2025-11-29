@@ -30,18 +30,11 @@ export const Projects: React.FC = () => {
                   <div className="absolute inset-0 bg-slate-900/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4 backdrop-blur-sm">
                     <a 
                       href={project.githubUrl} 
-                      className="p-3 bg-white rounded-full text-charcoal hover:bg-gold-400 transition-colors shadow-lg"
-                      title="View Code"
-                    >
-                      <Github size={22} />
-                    </a>
-                    <a 
-                      href={project.liveUrl || '#'} 
-                      className="p-3 bg-white rounded-full text-charcoal hover:bg-gold-400 transition-colors shadow-lg"
+                       className="p-3 bg-white rounded-full text-charcoal hover:bg-gold-400 transition-colors shadow-lg"
                       title="Live Demo"
                     >
-                      <ExternalLink size={22} />
-                    </a>
+                      <Github size={22} />
+                    </a>                    
                   </div>
                 </div>
 

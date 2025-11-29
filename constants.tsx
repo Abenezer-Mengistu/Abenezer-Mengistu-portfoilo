@@ -66,7 +66,7 @@ export const EXPERIENCE: ExperienceItem[] = [
 export const EDUCATION: EducationItem = {
   institution: 'ACT American College of Technology',
   degree: 'Bachelor of Science, Computer Science',
-  period: '2021 – 2024',
+  period: '2022 – 2025',
   courses: ['JavaScript', 'SQL Server', 'Web Development', 'Cybersecurity', 'Data Structures', 'Algorithms'],
 };
 
@@ -80,15 +80,8 @@ export const CERTIFICATIONS: CertificateItem[] = [
 
 export const PROJECTS: ProjectItem[] = [
   {
-    title: 'NegusFit',
-    description: 'is a modern, mobile-first fitness and wellness platform designed to make health accessible, culturally relevant, and deeply personal. We bridge the gap between modern training science and local cultural contexts, featuring culturally specific nutrition planning, inclusive workout routines, and a supportive community that treats you like royalty.',
-    tags: ['Django', 'Python', 'PostgreSQL', 'Bootstrap', 'React', 'Tailwind', 'Vite'],
-    image: '/images/negusfit.png',
-    githubUrl: 'https://negus-fit.vercel.app/',
-  },
-  {
     title: 'HabitMint',
-    description: 'A responsive, high-performance dashboard for visualizing complex datasets, featuring interactive charts and real-time updates.',
+    description: 'Tiny Habits, Big Transformations. Discover curated 1–5 minute routines crafted by experts to upgrade your life, one micro-step at a time.',
     tags: ['React', 'Tailwind CSS', 'Recharts', 'TypeScript'],
     image: '/images/habit.png',
     githubUrl: 'https://habit-mint-nine.vercel.app/',
