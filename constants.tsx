@@ -52,7 +52,7 @@ export const EXPERIENCE: ExperienceItem[] = [
   {
     company: 'Ministry of Planning and Development Ethiopia',
     role: 'Junior Intern Full-Stack Developer',
-    period: 'Jul 2024 – Present', // Adjusted from 2025 based on logical timeline
+    period: 'Jul 2024 – Present',
     description: [
       'Developed and maintained scalable government systems using Python and Django.',
       'Implemented robust RESTful APIs to facilitate seamless communication between front-end and back-end services.',
@@ -60,6 +60,20 @@ export const EXPERIENCE: ExperienceItem[] = [
       'Utilized Git for version control, ensuring clean codebases and efficient team collaboration.',
     ],
     techStack: ['Django', 'Python', 'PostgreSQL', 'React', 'Git'],
+  },
+  {
+    company: 'Sheba-X AI & Automation',
+    role: 'Web Scraping & AI Automation Engineer',
+    period: 'Jan 2026 – Present',
+    description: [
+      'Built and maintained scalable web scraping pipelines to extract, clean, and structure data from complex web sources.',
+      'Developed AI-driven automation workflows to streamline repetitive business processes and data operations.',
+      'Implemented robust backend services using Node.js and TypeScript to handle scraping logic, scheduling, and data processing.',
+      'Integrated scraped data into modern React-based dashboards for real-time monitoring and analysis.',
+      'Ensured data reliability and security by handling anti-bot measures, rate limiting, and error recovery strategies.',
+      'Collaborated using Git-based workflows to maintain clean, versioned, and well-documented codebases.',
+    ],
+    techStack: ['TypeScript', 'Node.js', 'React', 'Web Scraping', 'Git'],
   },
 ];
 
