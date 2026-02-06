@@ -56,7 +56,7 @@ export const Contact: React.FC = () => {
                       <h3 className="text-xl font-bold text-white mb-2">Email</h3>
                       <p className="text-slate-400">
                          <a href="mailto:Abenezermengistu60@gmail.com" className="hover:text-gold-400 transition-colors">
-                           abenezer.mengistu@example.com
+                           abenezermengistu60@gmail.com
                          </a>
                       </p>
                       <p className="text-slate-500 text-sm mt-1">Response time: Within 24 hours</p>
