@@ -55,7 +55,7 @@ export const Contact: React.FC = () => {
                     <div>
                       <h3 className="text-xl font-bold text-white mb-2">Email</h3>
                       <p className="text-slate-400">
-                         <a href="mailto:abenezer@example.com" className="hover:text-gold-400 transition-colors">
+                         <a href="mailto:Abenezermengistu60@gmail.com" className="hover:text-gold-400 transition-colors">
                            abenezer.mengistu@example.com
                          </a>
                       </p>
